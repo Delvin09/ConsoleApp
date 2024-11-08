@@ -5,7 +5,7 @@
         static void Main(string[] args)
         {
             int age = 19;
-            string hello = null;
+            string hello = null!;
             hello ??= "default string value";
 
             switch (hello)
@@ -27,7 +27,7 @@
                 _ => int.MinValue
             };
 
-            List<int> list = new List<int>() { 1, 0, 1, 1, 1, 1 };
+            List<int> list = new List<int>() { 1, 0, 1, 1, 1 };
 
             foreach (var i in list)
             {
