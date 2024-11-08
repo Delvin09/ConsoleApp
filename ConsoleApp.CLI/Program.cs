@@ -4,8 +4,8 @@
     {
         static void Main(string[] args)
         {
-            int age = 19;
-            string hello = null!;
+            int age = 2300;
+            string hello = null;
             hello ??= "default string value";
 
             switch (hello)
@@ -26,16 +26,6 @@
                 "Bay bay" => -1,
                 _ => int.MinValue
             };
-
-            List<int> list = new List<int>() { 1, 0, 1, 1, 1 };
-
-            foreach (var i in list)
-            {
-                if (i == 0)
-                {
-                    list.Remove(i);
-                }
-            }
 
             Console.WriteLine();
 
