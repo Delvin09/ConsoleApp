@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            int age = 2300;
+            int age = 23;
             string hello = null;
             hello ??= "default string value";
 
